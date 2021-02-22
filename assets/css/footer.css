@@ -1,0 +1,46 @@
+footer {
+    width: 100;
+    background-color: var(--black-transparent);
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+
+.ft-cont {
+    width: 500px;
+    display: initial;
+    justify-content: center;
+}
+
+footer hr {
+    margin: 20px 0;
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+footer nav a {
+    color: var(--cinza);
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    color: var(--btn-hover);
+}
+
+footer p {
+    color: var(--cinza);
+}
+
+.desenvolvedor {
+    color: var(--cinza);
+    font-style: italic;
+}
+
+.desenvolvedor:hover {
+    color: var(--azul);
+    font-style: italic;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farik - Galeria</title>
+  <link rel="shortcut icon" href="./assets/imagens/icon-vidracaria.png" >
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/nav.css">
+  <link rel="stylesheet" href="./assets/css/galeria.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+
+    <nav class="active nav" id="nav">
+      <img class="farik" src="./assets/imagens/Farik.png" alt="Logo farik" width="140">
+
+      <ul class="ul-nav">
+        <li><a href="./index.html">Início</a></li>
+        <li><a href="./galeria.html">Galeria</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+      </ul>
+      <button class="icon" id="toggle">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+      </button>
+
+    </nav>
+  </header>
+  <main>
+    <div>
+      <h1 class="titulo-galeria">Conheça nosso trabalho!</h1>
+    </div>
+    <div class="galeria">
+      <div class="item-gal">
+        <img src="./assets/imagens/IMG-sac.jpg" width="100%" alt="">
+      </div>
+      <div class="item-gal">
+        <img src="./assets/imagens/IMG-sac1.jpg" width="100%" alt="">
+      </div>
+      <div class="item-gal">
+        <img src="./assets/imagens/IMG-sac2.jpg" width="100%" alt="">
+      </div>
+      <div class="item-gal">
+        <img src="./assets/imagens/IMG-sac6.jpg" width="100%" alt="">
+      </div>
+      <div class="item-gal">
+        <img src="./assets/imagens/IMG-sac7.jpg" width="100%" alt="">
+      </div>
+      <div class="item-gal">
+        <img src="./assets/imagens/IMG-sac8.jpg" width="100%" alt="">
+      </div>
+    
+    </div>
+  </main>
+  <footer>
+    <div class="ft-cont">
+      <nav>
+      <a href="./index.html">Início</a>
+      <a href="./galeria.html">Galeria</a>
+      <a href="./contato.html">Contato</a>
+    </nav>
+    <hr>
+    <p>Site desenvolvido por <a class="desenvolvedor" href="http://danielscharp.me">&copy;DanielScharp</a></p>
+    </div>
+    
+  </footer>
+
+  <script src="./assets/javascript/script.js"></script>
+  <script type="text/javascript" src="./assets/javascript/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+  </script>
+  <script src="./assets/javascript/galery.js"></script>
+  <script src="./assets/javascript/nav.js"></script>
+
+</body>
+
+</html>
