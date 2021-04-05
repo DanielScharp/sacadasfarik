@@ -162,7 +162,7 @@ margin-left: 20%;
   .inicio h1 {
     font-size: 3em;
     line-height: 53px;
-    margin: 10px 0;
+    margin: 20px 0;
   }
 
   svg {
@@ -179,7 +179,7 @@ margin-left: 20%;
 @media (min-width: 1006px) {
   .inicio h1 {
     font-size: 4em;
-    margin: 15px 0;
+    margin: 45px 0;
   }
   .obs-pagamento {
     margin-top: 0px;
